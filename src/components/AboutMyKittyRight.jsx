@@ -33,7 +33,7 @@ const AboutMyKittyRight = () => {
         </div>
 
         {/* Badge 2 - Right center */}
-        <div className="absolute top-[225px] right-[-80px] bg-white shadow-md rounded-xl pl-7 pr-2 py-4 text-sm font-medium text-pink-600 flex items-center gap-2 z-20 rotate-[-6deg]">
+        <div className="absolute top-[225px] right-[-80px] bg-white shadow-md rounded-xl pl-7 pr-2 py-4 text-sm font-medium text-[#4B4398] font-merriweather flex items-center gap-2 z-20 rotate-[-6deg]">
           <img src={aboutMyKittyRight.badges[1].icon} alt="icon2" className="w-12 h-12 absolute top-[0%] left-[-12%]" />
           {aboutMyKittyRight.badges[1].label}
         </div>
